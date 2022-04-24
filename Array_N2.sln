@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_N2", "Array_N2\Array_N2.csproj", "{1ACCAAD5-EED1-4030-9173-AEA6D7907A31}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{04800D1D-7E2F-4C28-9CDE-90978F3662A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_N5", "Arrays_N5\Arrays_N5.csproj", "{5D1B7651-9933-4332-9C4F-FF5C9274CBC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,17 @@ Global
 		{1ACCAAD5-EED1-4030-9173-AEA6D7907A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ACCAAD5-EED1-4030-9173-AEA6D7907A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ACCAAD5-EED1-4030-9173-AEA6D7907A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1B7651-9933-4332-9C4F-FF5C9274CBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1B7651-9933-4332-9C4F-FF5C9274CBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1B7651-9933-4332-9C4F-FF5C9274CBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1B7651-9933-4332-9C4F-FF5C9274CBC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1ACCAAD5-EED1-4030-9173-AEA6D7907A31} = {04800D1D-7E2F-4C28-9CDE-90978F3662A7}
+		{5D1B7651-9933-4332-9C4F-FF5C9274CBC8} = {04800D1D-7E2F-4C28-9CDE-90978F3662A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FC05396-77BD-4C28-A50C-D433E63EE6AB}

@@ -9,11 +9,6 @@ namespace Array_N2
     class Program
     {
 
-        static int Sum(int a,int b)
-        {
-            return a + b;
-        }
-
         static int[,] Fill2DArray(int N,int M,int min,int max)
         {
             int[,] a = new int[N, M];
@@ -32,7 +27,7 @@ namespace Array_N2
                     if (a[i, j] > max) max = a[i, j];
             return max;
         }
-            static void Print2DArray(int[,] a)
+        static void Print2DArray(int[,] a)
         {
             for (int i = 0; i < a.GetLength(0); i++)
             {
@@ -52,7 +47,6 @@ namespace Array_N2
 
         static void Main(string[] args)
         {
-            int s = Sum(2, 2);
             int[,] a = Fill2DArray(10, 10, 1, 10);
             Print2DArray(a);
             //Print2DArray(Fill2DArray(5, 5, 1, 5));
